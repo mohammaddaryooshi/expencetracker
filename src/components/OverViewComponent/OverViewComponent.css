@@ -1,0 +1,84 @@
+.overview-contaioner{
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.addbox{
+    padding:15px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.addboxtop{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.addboxbottom{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 20px;
+    margin-top: 20px;
+    height: auto;
+}
+
+.trackerbox{
+    height: 70px;
+    width: 100%;
+   
+    border-radius: 7px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.overviewtitel{
+    font-weight: 700;
+}
+
+.filedbox{
+    border: 1px solid #ccc;
+    padding: 7px 20px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.incomepriceprice{
+    color: green;
+}
+
+.expenceprice{
+    color: red;
+}
+
+.red-btn{
+    color: #e11d48;
+    border: 1px solid #e11d48;
+    background-color: white;
+    
+}
+
+.green-btn{
+    color: #fff;
+    border: 1px solid #65a30d;
+    background-color: #65a30d;
+    outline: none;
+}

@@ -1,0 +1,31 @@
+.transaction-list{
+    width: 100%;
+    height: auto;
+    padding: 15px;
+}
+
+.transaction-ul{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.transaction-li{
+    list-style-type: none;
+    padding: 10px;
+    border: 1px solid #ccc;border-left: 5px solid #000;
+    border-radius: 7px;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.red-li{
+    border-right: 5px solid red;
+}
+
+.green-li{
+    border-right: 5px solid green;
+}
